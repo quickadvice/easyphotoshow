@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FFMpegCore" Version="5.4.0" />
+    <PackageReference Include="Magick.NET-Q8-AnyCPU" Version="14.13.1" />
+    <PackageReference Include="MetadataExtractor" Version="2.9.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="EasyPhotoShow.Core.Tests" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,29 @@
+# Build output
+bin/
+obj/
+
+# Visual Studio user files
+*.user
+*.suo
+.vs/
+
+# FFmpeg binaries (large, not ours to redistribute via source control)
+src/EasyPhotoShow.App/tools/ffmpeg/
+
+# Music MP3s (large binary assets, distributed via installer only) — covers the preset
+# tracks under Assets/Music/ and any working copies kept elsewhere in the tree (e.g. repo root).
+*.mp3
+
+# Error logs saved by the app
+Errors/
+
+# Claude Code session memory
+.claude/
+
+# Installer build output (generated artifacts)
+installer/Output/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store

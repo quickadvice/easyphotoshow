@@ -1,0 +1,37 @@
+<Application x:Class="EasyPhotoShow.App.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:EasyPhotoShow.App"
+             xmlns:views="clr-namespace:EasyPhotoShow.App.Views"
+             xmlns:vm="clr-namespace:EasyPhotoShow.App.ViewModels"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles/Theme.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <DataTemplate DataType="{x:Type vm:MainScreenViewModel}">
+                <views:MainScreenView />
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type vm:ScanningViewModel}">
+                <views:ScanningView />
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type vm:DuplicateReviewViewModel}">
+                <views:DuplicateReviewView />
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type vm:SlideshowCreationViewModel}">
+                <views:SlideshowCreationView />
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type vm:RenderingViewModel}">
+                <views:RenderingView />
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type vm:CompletionViewModel}">
+                <views:CompletionView />
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type vm:PlaybackViewModel}">
+                <views:PlaybackView />
+            </DataTemplate>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

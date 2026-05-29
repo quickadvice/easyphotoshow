@@ -1,0 +1,100 @@
+<UserControl x:Class="EasyPhotoShow.App.Views.RenderingView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="clr-namespace:EasyPhotoShow.App.ViewModels"
+             d:DataContext="{d:DesignInstance Type=vm:RenderingViewModel}"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006">
+    <Grid Background="{StaticResource BackgroundBrush}">
+        <Border Style="{StaticResource Card}" Padding="56,44"
+                HorizontalAlignment="Center" VerticalAlignment="Center"
+                MaxWidth="640" MinWidth="520">
+            <StackPanel>
+                <TextBlock Style="{StaticResource H1}" HorizontalAlignment="Center"
+                           Text="Creating your slideshow" />
+                <TextBlock Style="{StaticResource Lead}" HorizontalAlignment="Center"
+                           TextAlignment="Center" Margin="0,4,0,0"
+                           Text="{Binding StageLabel}" />
+
+                <!-- Overall progress bar — two nested Borders with MultiBinding so the
+                     fill width is computed directly from ProgressFraction × ActualWidth.
+                     Bypasses WPF's PART_Track/PART_Indicator machinery which silently
+                     no-ops if either part is missing.
+                     During Stage 3 (FinalizingSlideshow / AddingMusic) the fill pulses
+                     opacity 0.4 → 1.0 → 0.4 to signal active work — see the DataTrigger
+                     on IsStageFinalizing below. -->
+                <Border x:Name="ProgressTrack"
+                        Margin="0,36,0,0"
+                        Height="12"
+                        Background="{StaticResource ProgressTrackBrush}"
+                        CornerRadius="6"
+                        HorizontalAlignment="Stretch"
+                        ClipToBounds="True">
+                    <Border HorizontalAlignment="Left"
+                            VerticalAlignment="Stretch"
+                            Background="{StaticResource ProgressFillBrush}"
+                            CornerRadius="6">
+                        <Border.Width>
+                            <MultiBinding Converter="{StaticResource FractionToWidth}">
+                                <Binding Path="ProgressFraction" />
+                                <Binding Path="ActualWidth" ElementName="ProgressTrack" />
+                            </MultiBinding>
+                        </Border.Width>
+                        <Border.Style>
+                            <Style TargetType="Border">
+                                <Setter Property="Opacity" Value="1.0" />
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding IsStageFinalizing}" Value="True">
+                                        <DataTrigger.EnterActions>
+                                            <BeginStoryboard Name="StageFinalizingPulse">
+                                                <Storyboard RepeatBehavior="Forever" AutoReverse="True">
+                                                    <DoubleAnimation Storyboard.TargetProperty="Opacity"
+                                                                     From="1.0" To="0.4" Duration="0:0:0.6" />
+                                                </Storyboard>
+                                            </BeginStoryboard>
+                                        </DataTrigger.EnterActions>
+                                        <DataTrigger.ExitActions>
+                                            <StopStoryboard BeginStoryboardName="StageFinalizingPulse" />
+                                        </DataTrigger.ExitActions>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Border.Style>
+                    </Border>
+                </Border>
+
+                <Grid Margin="0,16,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" Style="{StaticResource Subtle}" FontSize="13"
+                               Text="{Binding PhaseProgressText}" />
+                    <TextBlock Grid.Column="1" Style="{StaticResource Subtle}" FontSize="13"
+                               HorizontalAlignment="Right" FontWeight="SemiBold"
+                               Foreground="{StaticResource TextPrimaryBrush}"
+                               Text="{Binding OverallProgressText}" />
+                </Grid>
+
+                <!-- Two-line ETA. Primary: "Estimated time remaining: X minutes" or
+                     "Estimating...". Secondary: confidence note. Both hidden during the
+                     Stage 3 / Complete tail to avoid bouncing back to "Estimating..." -->
+                <TextBlock Style="{StaticResource Body}" FontSize="14"
+                           HorizontalAlignment="Center"
+                           Margin="0,14,0,0"
+                           Text="{Binding EtaPrimary}" />
+                <TextBlock Style="{StaticResource Caption}"
+                           HorizontalAlignment="Center"
+                           Margin="0,2,0,0"
+                           FontStyle="Italic"
+                           Text="{Binding EtaSubtitle}" />
+
+                <Button Style="{StaticResource SecondaryButton}" Content="Cancel"
+                        Command="{Binding CancelCommand}"
+                        HorizontalAlignment="Center" Margin="0,36,0,0"
+                        Padding="40,12" />
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>

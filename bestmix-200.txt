@@ -1,0 +1,434 @@
+=== BestMixDiagnostic: D:\Test_200 ===
+
+Scanned 197 photos (0 unsupported skipped).
+dHash values computed: 197 / 197.
+
+BestMixOrderer.Order completed in 16 ms.
+
+=== Ordered sequence ===
+[0001] IMG_5387.jpeg                                      | 8c8cad638ba3f2c1 | 2026-04-01 10:07
+[0002] 11ec766a-e69d-4d7c-aa20-1c11d03ab931.jpg           | 3c32726bd4b49191 | 2026-05-18 12:22
+[0003] 2017-05-09 10.46.49.jpg                            | 200ba36060290800 | 2017-05-09 05:46
+[0004] 2017-05-07 14.44.41.jpg                            | 07ed683230951763 | 2017-05-07 14:44
+[0005] 2017-08-14 14.24.40.jpg                            | 99368a0d75630017 | 2017-08-14 14:24
+[0006] IMG_6125.jpeg                                      | f3e39d96f6fc6cc9 | 2026-04-01 10:09
+[0007] 2017-05-04 19.40.24.jpg                            | 276bf9f1f1e95fbf | 2017-05-04 19:40
+[0008] 2017-03-15 19.27.29.jpg                            | 343c385ececccdcd | 2017-03-15 14:27
+[0009] 2017-05-12 20.10.21.jpg                            | 9f07c29d8d3dddfd | 2017-05-12 20:10
+[0010] 2013-11-01 10.06.57 - Copy.jpg                     | 848e2b39657c7af5 | 2013-11-01 10:06
+[0011] IMG_5929.jpeg                                      | 093929396949b1e1 | 2026-04-01 10:06
+[0012] 2014-04-18 14.42.48 - Copy.jpg                     | c86641c5e4f9e0e6 | 2014-04-18 14:42
+[0013] 2014-12-24 16.43.41 - Copy.jpg                     | 104545c9cb96069a | 2014-12-24 16:43
+[0014] 4af9b959-41db-4d59-b818-a000d02e5926.jpg           | c4c6a7b22bd9dca4 | 2026-05-18 12:23
+[0015] 2017-05-12 13.53.19.jpg                            | 00643478c0c3f371 | 2017-05-12 08:53
+[0016] 2013-10-16 14.52.10 - Copy.jpg                     | b9b3b2b285e4fb3b | 2013-10-16 14:52
+[0017] IMG_5422.jpeg                                      | eaecc6d6c7cece6c | 2026-04-01 10:07
+[0018] 2016-03-05 19.17.52 - Copy.jpg                     | 0d5d5dd948c8dbde | 2016-03-05 19:17
+[0019] 2016-04-28 18.41.20 - Copy.jpg                     | df697cde4e3c39c4 | 2016-04-28 18:41
+[0020] 2016-10-14 18.34.10 - Copy.jpg                     | 4196f6ccc0d094c4 | 2016-10-14 18:34
+[0021] 2017-05-06 15.51.09.jpg                            | c466aa861c9e9292 | 2017-05-06 10:51
+[0022] IMG_5909.jpeg                                      | d3d371b5f9b9b0f2 | 2026-04-01 10:06
+[0023] 1856.jpg                                           | 01636cece0616978 | 2026-05-18 15:24
+[0024] 2015-02-10 17.22.30 - Copy.jpg                     | 6942238b2636adbf | 2015-02-10 17:22
+[0025] 6e77b009-a25d-463b-bff9-a5ef362ca815.jpg           | 1f3a7e6c6ecea755 | 2026-05-18 12:23
+[0026] 2017-05-09 10.47.21.jpg                            | fc6cccc8ccccfcdc | 2017-05-09 05:47
+[0027] IMG_5811.jpeg                                      | 0020220908cccc89 | 2026-04-01 10:06
+[0028] 2016-03-27 12.30.35 - Copy.jpg                     | 44a43c1cb4262424 | 2016-03-27 12:30
+[0029] 2016-04-28 19.26.36 - Copy.jpg                     | 3e0e32211d8df373 | 2016-04-28 19:26
+[0030] 2016-05-12 15.05.59 - Copy.jpg                     | 0f33621a7260f066 | 2016-05-12 15:05
+[0031] 2016-07-02 18.48.03 - Copy.jpg                     | 32bad8c9c9c9c9d9 | 2016-07-02 13:48
+[0032] IMG_5912.jpeg                                      | 53d3f7f5dbf1f4f4 | 2026-04-01 10:06
+[0033] 2017-05-07 15.17.07.jpg                            | c8a536f9f1f38059 | 2017-05-07 15:17
+[0034] 2017-08-14 14.24.49.jpg                            | e5ef69cebe362606 | 2017-08-14 14:24
+[0035] 2016-10-14 19.13.25 - Copy.jpg                     | a49a9d9d9d9ac54d | 2016-10-14 19:13
+[0036] 2016-11-24 16.19.06-1.jpg                          | 299997961e1e9b9e | 2016-11-24 16:25
+[0037] IMG_5521.jpeg                                      | a12042069cc6f131 | 2026-04-01 10:07
+[0038] 2c58c3a5-3010-4257-89d2-0fec1e89a601.jpg           | 6cd2b3b39b992acc | 2026-05-18 12:24
+[0039] 2017-05-04 19.43.37.jpg                            | c0d5c4acac949fff | 2017-05-04 19:43
+[0040] 2017-03-09 12.16.04.jpg                            | c45448386868d2d2 | 2017-03-09 06:16
+[0041] 2017-04-16 14.04.56.jpg                            | f5f3e3a71637971e | 2017-04-16 14:04
+[0042] IMG_5986.jpeg                                      | b8d9f9e369f9d9ec | 2026-04-01 10:06
+[0043] 2017-05-10 19.33.52.jpg                            | c1253691acce3632 | 2017-05-10 19:33
+[0044] 2017-05-13 12.54.46.jpg                            | 660797b61a98e4d4 | 2017-05-13 07:54
+[0045] 2017-06-08 23.46.39.jpg                            | 80588c9494923168 | 2017-06-08 18:46
+[0046] 2017-03-15 19.54.19.jpg                            | f2ef8e9393c5e393 | 2017-03-15 14:54
+[0047] 2017-05-09 10.47.11.jpg                            | 006d1b9313733300 | 2017-05-09 05:47
+[0048] IMG_6173.jpeg                                      | 5946aa3a164e6667 | 2026-04-01 10:09
+[0049] 1e6375b3-857f-471e-83c4-fc601c1e68f9.jpg           | d62464656565e161 | 2026-05-18 12:21
+[0050] 2017-05-12 20.15.48.jpg                            | 40b02c4eebebefd7 | 2017-05-12 20:15
+[0051] IMG_20260518_124122.heic                           | 89cde53534a23636 | 2024-10-09 19:34
+[0052] 2013-09-14 09.18.12 - Copy.jpg                     | 9418339230717133 | 2013-09-14 09:18
+[0053] IMG_5794.jpeg                                      | 2088716871d9c9b9 | 2026-04-01 10:06
+[0054] 2013-09-14 14.57.05 - Copy.jpg                     | e1c585d1d2b3f9f9 | 2013-09-14 14:57
+[0055] 2014-03-28 11.43.45 - Copy.jpg                     | f0e094d46e1e0703 | 2014-03-28 11:43
+[0056] 2014-04-18 15.38.20 - Copy.jpg                     | 1c2d63a3bbc9c0a0 | 2014-04-18 15:38
+[0057] 2014-07-06 12.41.35 - Copy.jpg                     | 024120284f4e1103 | 2014-07-06 12:41
+[0058] IMG_6121.jpeg                                      | cf1793f9e8f83047 | 2026-04-01 10:09
+[0059] 2013-11-01 10.27.49 - Copy.jpg                     | 1f27dc5e1d39e746 | 2013-11-01 10:27
+[0060] 4f8b4e4a-18ff-4c21-b738-752cac2f1214 (1).jpg       | ecd82b1b9b1b4c4d | 2026-05-18 12:21
+[0061] 2017-05-07 15.18.30.jpg                            | 64ca46e470684ac0 | 2017-05-07 15:18
+[0062] 2017-08-14 14.30.51.jpg                            | ab2b222631d3dad3 | 2017-08-14 14:30
+[0063] IMG_5669.jpeg                                      | 49c4e4009883968c | 2026-04-01 10:07
+[0064] 2014-04-18 14.44.13 - Copy.jpg                     | d026337371ca2079 | 2014-04-18 14:44
+[0065] 2014-12-24 16.44.08 - Copy.jpg                     | c26621343dbf8d05 | 2014-12-24 16:44
+[0066] 2017-05-12 13.53.36.jpg                            | 783ce4d4368b8800 | 2017-05-12 08:53
+[0067] 2014-12-07 02.55.46 - Copy.jpeg                    | 0e2c2eaeac9e9e9e | 2014-12-06 20:55
+[0068] IMG_6123.jpeg                                      | c73319ece8f83047 | 2026-04-01 10:09
+[0069] 2017-05-09 10.47.06.jpg                            | d4d0b0f0f0b2f4d4 | 2017-05-09 05:47
+[0070] 2015-02-21 19.29.49 - Copy.jpg                     | 31b0c9d3938e8747 | 2015-02-21 19:29
+[0071] 2015-05-03 12.21.20 - Copy.jpg                     | 92b292d20707666e | 2015-05-03 12:21
+[0072] 165dc113-247d-4104-af0e-efd438142ac8.jpg           | 2753c7c6ccdc3c30 | 2026-05-18 12:23
+[0073] 2017-05-04 19.43.13.jpg                            | 0707a8d8d2686f3e | 2017-05-04 19:43
+[0074] IMG_5828.jpeg                                      | 10c2c092d6eccc11 | 2026-04-01 10:06
+[0075] 2015-05-22 04.41.56 - Copy.jpg                     | c0989a8aacfeebbc | 2015-05-21 23:41
+[0076] 2015-11-23 19.31.17 - Copy.jpg                     | 60d9d3272f1e1e0b | 2015-11-23 19:31
+[0077] 20150825_154852.jpeg                               | 1308a8b0e1f8cae0 | 2015-08-25 16:10
+[0078] 2016-01-09 20.35.37 - Copy.jpg                     | 1bab232747676565 | 2016-01-09 14:35
+[0079] IMG_5577.jpeg                                      | 732779694f776ce2 | 2026-04-01 10:07
+[0080] 2013-10-16 14.53.34 - Copy.jpg                     | 362c3237f483f1c2 | 2013-10-16 14:53
+[0081] 2016-03-05 19.18.00 - Copy.jpg                     | 6260636273625a26 | 2016-03-05 19:18
+[0082] 2016-04-28 18.42.20 - Copy.jpg                     | 00c3f36747676567 | 2016-04-28 18:42
+[0083] 9a463876-c488-4035-9e1c-c462e6d1dfec.jpg           | 88ac9cd579360714 | 2026-05-18 12:24
+[0084] IMG_5924.jpeg                                      | 8c989888c860d0c0 | 2026-04-01 10:06
+[0085] 2016-10-14 18.34.38 - Copy.jpg                     | 012828d4ccc4e46c | 2016-10-14 18:34
+[0086] 2017-03-15 19.55.02.jpg                            | 63e0c8dae66678fc | 2017-03-15 14:55
+[0087] 2017-05-12 20.10.47.jpg                            | 0483902425d90108 | 2017-05-12 20:10
+[0088] 2017-05-07 14.47.29.jpg                            | cbe7dbb4e4f0d9d9 | 2017-05-07 14:47
+[0089] IMG_5599.jpeg                                      | 4f472507313a9bbb | 2026-04-01 10:07
+[0090] 2017-08-14 14.31.52.jpg                            | 6a62f89845e9e186 | 2017-08-14 14:31
+[0091] 2017-05-09 10.46.53.jpg                            | 92691918dc303200 | 2017-05-09 05:46
+[0092] 2017-05-06 15.51.21.jpg                            | 3373f3e3e0d0818b | 2017-05-06 10:51
+[0093] 2016-03-11 17.40.51 - Copy.jpg                     | 00104c73f3c8c0a0 | 2016-03-11 17:40
+[0094] IMG_5573.jpeg                                      | f652d3b00c6533e0 | 2026-04-01 10:07
+[0095] 3f22bec7-626a-4372-bddd-445be23255b1.jpg           | 7413ab2725452bb9 | 2026-05-18 12:23
+[0096] 2016-03-27 13.48.15 - Copy.jpg                     | e5652d35350d1a1a | 2016-03-27 13:48
+[0097] 2016-03-27 16.29.48 - Copy.jpg                     | 696133191984ccc6 | 2016-03-27 16:29
+[0098] 2016-05-06 03.15.59 - Copy.jpg                     | e8c68e8e8f94acb8 | 2016-05-05 22:16
+[0099] IMG_5972.jpeg                                      | 7efe7c6ef2e4dcd9 | 2026-04-01 10:06
+[0100] 2016-05-08 15.22.05 - Copy.jpg                     | 376269c88c96b4a5 | 2016-05-08 15:22
+[0101] 2016-05-12 14.27.27 - Copy.jpg                     | 2c3a334b5bdd3b33 | 2016-05-12 14:27
+[0102] 2016-05-12 15.49.16 - Copy.jpg                     | 32ba2e2263e7b008 | 2016-05-12 15:49
+[0103] 2016-06-11 19.17.09 - Copy.jpg                     | 7f364d9f75b9d859 | 2016-06-11 19:17
+[0104] 2017-05-04 19.42.11.jpg                            | 034952ee6cf4743d | 2017-05-04 19:42
+[0105] IMG_5461.jpeg                                      | 0403afa42f366b69 | 2026-04-01 10:07
+[0106] 308c7a8e-2670-4043-8aa3-996476b44004.jpg           | efe792939b0d3474 | 2026-05-18 12:23
+[0107] 2013-11-01 10.10.30 - Copy.jpg                     | f3971b317050a486 | 2013-11-01 10:10
+[0108] 2014-04-18 14.43.23 - Copy.jpg                     | 4c62cbcb72cc29d1 | 2014-04-18 14:43
+[0109] 2014-12-24 16.44.05 - Copy.jpg                     | cb656379380d0d8f | 2014-12-24 16:44
+[0110] IMG_5466.jpeg                                      | 3edeebce964cd292 | 2026-04-01 10:07
+[0111] 2017-05-12 13.53.46.jpg                            | 777373f0e2f829db | 2017-05-12 08:53
+[0112] 2017-05-09 10.47.02.jpg                            | fcd4d0d0f0f0f0d4 | 2017-05-09 05:47
+[0113] 2016-07-07 10.51.22 - Copy.jpg                     | 33b11510714905e6 | 2016-07-07 05:51
+[0114] 2016-08-13 16.46.29 - Copy.jpg                     | 9e6f64b4ccd475c2 | 2016-08-13 16:46
+[0115] IMG_5622.jpeg                                      | 85251d311366e484 | 2026-04-01 10:07
+[0116] 83FB8689-.jpg                                      | cf6438d9e4e5f272 | 2026-05-18 15:24
+[0117] 2017-05-07 15.16.45.jpg                            | 14232ab8f0dccc32 | 2017-05-07 15:16
+[0118] 3b7b6f71-2aa0-4359-997c-0bb1baeedf80.jpg           | 360c1e70e4c2e201 | 2026-05-18 12:24
+[0119] 2017-08-14 14.26.03.jpg                            | cfcbd2cdd14207c1 | 2017-08-14 14:26
+[0120] IMG_6098.jpeg                                      | 31a06ae6dadb3931 | 2026-04-01 10:09
+[0121] 2015-02-10 17.23.20 - Copy.jpg                     | b4ac861f2c2f33bc | 2015-02-10 17:23
+[0122] 2016-03-27 12.32.48 - Copy.jpg                     | 9acd0e1e8e8ee995 | 2016-03-27 12:32
+[0123] 2016-04-28 19.27.06 - Copy.jpg                     | 0e1b38a69df8dcbd | 2016-04-28 19:27
+[0124] 2016-05-12 15.06.11 - Copy.jpg                     | 07d971cde9f9c842 | 2016-05-12 15:06
+[0125] IMG_5580.jpeg                                      | 4acb95292f96c661 | 2026-04-01 10:07
+[0126] 2017-03-15 19.55.16.jpg                            | b03069c3e289cf03 | 2017-03-15 14:55
+[0127] 2017-05-12 20.21.53.jpg                            | d2d3cacadb72f337 | 2017-05-12 20:21
+[0128] 2016-07-02 18.48.48 - Copy.jpg                     | d73cdce7e3e9be7d | 2016-07-02 13:48
+[0129] 5c597042-4297-46ee-b791-a6ead729c5b0.jpg           | b53565555d5c5859 | 2026-05-18 12:22
+[0130] 2016-10-14 19.14.27 - Copy.jpg                     | d4b6c98e1633c896 | 2016-10-14 19:14
+[0131] IMG_5703.jpeg                                      | e3f6ce6666662dd8 | 2026-04-01 10:07
+[0132] 2016-11-24 16.19.41-1 - Copy.jpg                   | 63ede7d66e6c7131 | 2016-11-24 16:26
+[0133] 2017-03-09 12.16.13.jpg                            | 9f96daec6c642c27 | 2017-03-09 06:16
+[0134] 2017-05-09 10.47.25.jpg                            | 001232b4b4383800 | 2017-05-09 05:47
+[0135] 2017-04-16 14.23.15.jpg                            | 1302099951080727 | 2017-04-16 14:23
+[0136] IMG_6109.jpeg                                      | 393334183494d2d1 | 2026-04-01 10:09
+[0137] 2017-05-04 19.49.06.jpg                            | 0b39f5d391bbf33f | 2017-05-04 19:49
+[0138] 2017-05-10 19.34.32.jpg                            | 0751d8dcce9ec6f8 | 2017-05-10 19:34
+[0139] 2017-05-13 12.54.53.jpg                            | 4c0d64ece8313839 | 2017-05-13 07:54
+[0140] 2017-06-08 23.46.56.jpg                            | 246b9ab4341818b2 | 2017-06-08 18:46
+[0141] IMG_5729.jpeg                                      | d557cd4b1bab6560 | 2026-04-01 10:07
+[0142] 45e6a9fc-28f4-40e2-b30d-e5c4464910f6.jpg           | 2296242e6db9304c | 2026-05-18 12:23
+[0143] IMG_20260518_124138.heic                           | 331c1aaba999d9f8 | 2024-10-09 19:17
+[0144] 2013-10-16 14.52.22 - Copy.jpg                     | bcb1b390f3c4f9fb | 2013-10-16 14:52
+[0145] 2017-05-07 15.13.26.jpg                            | 6d4052d0e0e253f3 | 2017-05-07 15:13
+[0146] IMG_5771.jpeg                                      | 245040140c4cd8d0 | 2026-04-01 10:06
+[0147] 2017-08-14 14.32.38.jpg                            | 3321f99c32f8e890 | 2017-08-14 14:32
+[0148] 2016-03-05 19.18.10 - Copy.jpg                     | 7bf9e9e3e2d6b72c | 2016-03-05 19:18
+[0149] 2016-04-28 18.42.00 - Copy.jpg                     | 6d7c6e4c2cb16f1f | 2016-04-28 18:42
+[0150] 2016-10-14 18.37.12 - Copy.jpg                     | 3344d6f2f2c4c4a0 | 2016-10-14 18:37
+[0151] IMG_6062.jpeg                                      | 1ec7c9f5f4e6a4bd | 2026-04-01 10:06
+[0152] 2017-05-06 15.51.35.jpg                            | 493434b03232125f | 2017-05-06 10:51
+[0153] 2764cd42-1d31-4507-940e-6bf1cbfb3ddd.jpg           | 95a258d5951b9b93 | 2026-05-18 12:21
+[0154] 2016-10-21 11.41.41 - Copy.jpg                     | 6d4d4f793ddd5f3f | 2016-10-21 06:41
+[0155] 2016-12-02 18.29.56.jpg                            | 181dccac361da7d9 | 2016-12-02 18:29
+[0156] 2017-05-09 10.46.57.jpg                            | c4c878dad0f4d0d4 | 2017-05-09 05:46
+[0157] IMG_5454.jpeg                                      | 006017cc4c13f018 | 2026-04-01 10:07
+[0158] 2013-11-01 10.15.41 - Copy.jpg                     | f5d3ef0f1f6ee1d9 | 2013-11-01 10:15
+[0159] 2014-04-18 14.43.35 - Copy.jpg                     | 4c62633372e421d0 | 2014-04-18 14:43
+[0160] 2014-12-24 16.44.15 - Copy.jpg                     | 01032394356fce17 | 2014-12-24 16:44
+[0161] 2017-05-12 13.53.50.jpg                            | b87c8ef573dad386 | 2017-05-12 08:53
+[0162] IMG_5495.jpeg                                      | 0b1a4025972ce0e1 | 2026-04-01 10:07
+[0163] 2016-12-20 20.30.46 - Copy.jpg                     | 0f3fc0c4e5c561a3 | 2016-12-20 20:30
+[0164] 9abf1cd6-a267-4700-8970-5bae2958bad2.jpg           | 071e9d594bce6230 | 2026-05-18 12:23
+[0165] 2017-03-15 19.55.08.jpg                            | 939b99d9d9fcfc9f | 2017-03-15 14:55
+[0166] 2017-05-12 20.10.32.jpg                            | f6b7b347797ba332 | 2017-05-12 20:10
+[0167] IMG_5755.jpeg                                      | 3084a45cc8c88dc9 | 2026-04-01 10:06
+[0168] 2017-02-11 18.47.19.jpg                            | f4ecdc5cf6c8cd2c | 2017-02-11 18:47
+[0169] 2017-03-08 11.15.12.jpg                            | 27235252e6e7677c | 2017-03-08 11:15
+[0170] 2017-05-04 19.41.40.jpg                            | 03632ae961d2936f | 2017-05-04 19:41
+[0171] 2017-03-25 18.24.17.jpg                            | 040c8c72cc9c949f | 2017-03-25 18:24
+[0172] IMG_5847.jpeg                                      | 149a3a212726e646 | 2026-04-01 10:06
+[0173] 2017-05-07 15.17.43.jpg                            | 24226b70f0b99860 | 2017-05-07 15:17
+[0174] 2017-08-14 14.25.23.jpg                            | 66646ace27670607 | 2017-08-14 14:25
+[0175] 2017-04-15 19.31.28.jpg                            | 6276661624251533 | 2017-04-15 19:31
+[0176] 47a6967e-cd46-4007-8158-3270d21cc30f.jpg           | bc3626b49cc9e3f1 | 2026-05-18 12:21
+[0177] IMG_5647.jpeg                                      | 0e66f2365b9bc96c | 2026-04-01 10:07
+[0178] 2017-05-09 10.47.16.jpg                            | c4e4f0b090f0b0d4 | 2017-05-09 05:47
+[0179] 2017-04-16 12.49.42.jpg                            | e85c2daeaeacb433 | 2017-04-16 12:49
+[0180] 2017-04-21 22.46.10.jpg                            | 59d9c74747879f9e | 2017-04-21 17:46
+[0181] 2017-05-07 14.02.36.jpg                            | 9e8c3c3698b83991 | 2017-05-07 14:02
+[0182] IMG_6148.jpeg                                      | 3132aa6ac6e4fff3 | 2026-04-01 10:09
+[0183] 2017-05-11 20.55.04.jpg                            | 8dc9fc3e1d9f0d4f | 2017-05-11 20:55
+[0184] 2017-05-12 19.09.33.jpg                            | 2d9a989cb5efffbf | 2017-05-12 19:09
+[0185] 2017-05-13 19.56.53.jpg                            | 74f4a02e26a72f9f | 2017-05-13 14:56
+[0186] 2017-05-17 15.06.04.jpg                            | 2d3d2537337070f3 | 2017-05-17 15:06
+[0187] 90c86d89-ce53-4ba0-bded-51c330c21c0f.jpg           | 3c0d2d6d496d2113 | 2026-05-18 12:21
+[0188] IMG_6197.jpeg                                      | e778b5b132e170fc | 2026-04-01 10:09
+[0189] 2017-05-22 11.23.43.jpg                            | 9c5a1393617bde74 | 2017-05-22 06:23
+[0190] 2017-08-14 19.24.29.jpg                            | 0f1033666cdc615b | 2017-08-14 19:24
+[0191] 2017-08-25 22.45.58.jpg                            | 6e5ddf99e9a42944 | 2017-08-25 22:45
+[0192] IMG_20260518_124117.heic                           | cbc2c9ca4a69c991 | 2023-05-14 14:06
+[0193] IMG_5517.jpeg                                      | d014618b36e6f17c | 2026-04-01 10:07
+[0194] IMG_20260518_124118.heic                           | f1d99b93b286b5e9 | 2023-09-10 19:06
+[0195] IMG_20260518_124124.heic                           | 3b2eaa2c49713a5b | 2025-05-31 21:47
+[0196] IMG_20260518_124125.heic                           | 3cf6cd07969292e6 | 2026-03-05 20:46
+[0197] IMG_20260518_124126.heic                           | e069e8f8fcf8cc8d | 2019-08-24 15:43
+
+=== Similarity spacing report ===
+Groups of similar photos (dHash distance ≤ 8 OR capture time within 30 min):
+Multi-photo clusters: 31 (singletons omitted).
+
+Group 1 (38 photos): slots 0, 5, 10, 16, 21, 26, 31, 36, ..., 192 (38 total)
+  Min spacing: 5 slots
+  Max spacing: 6 slots
+  Average spacing: 5.2 slots
+  Sample files: IMG_5387.jpeg, IMG_6125.jpeg, IMG_5929.jpeg (+35 more)
+
+Group 2 (17 photos): slots 1, 13, 24, 37, 48, 59, 71, 82, ..., 186 (17 total)
+  Min spacing: 11 slots
+  Max spacing: 13 slots
+  Average spacing: 11.6 slots
+  Sample files: 11ec766a-e69d-4d7c-aa20-1c11d03ab931.jpg, 4af9b959-41db-4d59-b818-a000d02e5926.jpg, 6e77b009-a25d-463b-bff9-a5ef362ca815.jpg (+14 more)
+
+Group 3 (9 photos): slots 2, 25, 46, 68, 90, 111, 133, 155, 177
+  Min spacing: 21 slots
+  Max spacing: 23 slots
+  Average spacing: 21.9 slots
+  Sample files: 2017-05-09 10.46.49.jpg, 2017-05-09 10.47.21.jpg, 2017-05-09 10.47.11.jpg (+6 more)
+
+Group 4 (7 photos): slots 3, 32, 60, 87, 116, 144, 172
+  Min spacing: 27 slots
+  Max spacing: 29 slots
+  Average spacing: 28.2 slots
+  Sample files: 2017-05-07 14.44.41.jpg, 2017-05-07 15.17.07.jpg, 2017-05-07 15.18.30.jpg (+4 more)
+
+Group 5 (7 photos): slots 4, 33, 61, 89, 118, 146, 173
+  Min spacing: 27 slots
+  Max spacing: 29 slots
+  Average spacing: 28.2 slots
+  Sample files: 2017-08-14 14.24.40.jpg, 2017-08-14 14.24.49.jpg, 2017-08-14 14.30.51.jpg (+4 more)
+
+Group 6 (6 photos): slots 6, 38, 72, 103, 136, 169
+  Min spacing: 31 slots
+  Max spacing: 34 slots
+  Average spacing: 32.6 slots
+  Sample files: 2017-05-04 19.40.24.jpg, 2017-05-04 19.43.37.jpg, 2017-05-04 19.43.13.jpg (+3 more)
+
+Group 7 (5 photos): slots 7, 45, 85, 125, 164
+  Min spacing: 38 slots
+  Max spacing: 40 slots
+  Average spacing: 39.2 slots
+  Sample files: 2017-03-15 19.27.29.jpg, 2017-03-15 19.54.19.jpg, 2017-03-15 19.55.02.jpg (+2 more)
+
+Group 8 (5 photos): slots 8, 49, 86, 126, 165
+  Min spacing: 37 slots
+  Max spacing: 41 slots
+  Average spacing: 39.2 slots
+  Sample files: 2017-05-12 20.10.21.jpg, 2017-05-12 20.15.48.jpg, 2017-05-12 20.10.47.jpg (+2 more)
+
+Group 9 (4 photos): slots 9, 58, 106, 157
+  Min spacing: 48 slots
+  Max spacing: 51 slots
+  Average spacing: 49.3 slots
+  Sample files: 2013-11-01 10.06.57 - Copy.jpg, 2013-11-01 10.27.49 - Copy.jpg, 2013-11-01 10.10.30 - Copy.jpg (+1 more)
+
+Group 10 (4 photos): slots 11, 63, 107, 158
+  Min spacing: 44 slots
+  Max spacing: 52 slots
+  Average spacing: 49.0 slots
+  Sample files: 2014-04-18 14.42.48 - Copy.jpg, 2014-04-18 14.44.13 - Copy.jpg, 2014-04-18 14.43.23 - Copy.jpg (+1 more)
+
+Group 11 (4 photos): slots 12, 64, 108, 159
+  Min spacing: 44 slots
+  Max spacing: 52 slots
+  Average spacing: 49.0 slots
+  Sample files: 2014-12-24 16.43.41 - Copy.jpg, 2014-12-24 16.44.08 - Copy.jpg, 2014-12-24 16.44.05 - Copy.jpg (+1 more)
+
+Group 12 (4 photos): slots 14, 65, 110, 160
+  Min spacing: 45 slots
+  Max spacing: 51 slots
+  Average spacing: 48.7 slots
+  Sample files: 2017-05-12 13.53.19.jpg, 2017-05-12 13.53.36.jpg, 2017-05-12 13.53.46.jpg (+1 more)
+
+Group 13 (3 photos): slots 15, 79, 143
+  Min spacing: 64 slots
+  Max spacing: 64 slots
+  Average spacing: 64.0 slots
+  Sample files: 2013-10-16 14.52.10 - Copy.jpg, 2013-10-16 14.53.34 - Copy.jpg, 2013-10-16 14.52.22 - Copy.jpg
+
+Group 14 (3 photos): slots 17, 80, 147
+  Min spacing: 63 slots
+  Max spacing: 67 slots
+  Average spacing: 65.0 slots
+  Sample files: 2016-03-05 19.17.52 - Copy.jpg, 2016-03-05 19.18.00 - Copy.jpg, 2016-03-05 19.18.10 - Copy.jpg
+
+Group 15 (3 photos): slots 18, 81, 148
+  Min spacing: 63 slots
+  Max spacing: 67 slots
+  Average spacing: 65.0 slots
+  Sample files: 2016-04-28 18.41.20 - Copy.jpg, 2016-04-28 18.42.20 - Copy.jpg, 2016-04-28 18.42.00 - Copy.jpg
+
+Group 16 (3 photos): slots 19, 84, 149
+  Min spacing: 65 slots
+  Max spacing: 65 slots
+  Average spacing: 65.0 slots
+  Sample files: 2016-10-14 18.34.10 - Copy.jpg, 2016-10-14 18.34.38 - Copy.jpg, 2016-10-14 18.37.12 - Copy.jpg
+
+Group 17 (3 photos): slots 20, 91, 151
+  Min spacing: 60 slots
+  Max spacing: 71 slots
+  Average spacing: 65.5 slots
+  Sample files: 2017-05-06 15.51.09.jpg, 2017-05-06 15.51.21.jpg, 2017-05-06 15.51.35.jpg
+
+Group 18 (2 photos): slots 22, 115
+  Min spacing: 93 slots
+  Max spacing: 93 slots
+  Average spacing: 93.0 slots
+  Sample files: 1856.jpg, 83FB8689-.jpg
+
+Group 19 (2 photos): slots 23, 120
+  Min spacing: 97 slots
+  Max spacing: 97 slots
+  Average spacing: 97.0 slots
+  Sample files: 2015-02-10 17.22.30 - Copy.jpg, 2015-02-10 17.23.20 - Copy.jpg
+
+Group 20 (2 photos): slots 27, 121
+  Min spacing: 94 slots
+  Max spacing: 94 slots
+  Average spacing: 94.0 slots
+  Sample files: 2016-03-27 12.30.35 - Copy.jpg, 2016-03-27 12.32.48 - Copy.jpg
+
+Group 21 (2 photos): slots 28, 122
+  Min spacing: 94 slots
+  Max spacing: 94 slots
+  Average spacing: 94.0 slots
+  Sample files: 2016-04-28 19.26.36 - Copy.jpg, 2016-04-28 19.27.06 - Copy.jpg
+
+Group 22 (2 photos): slots 29, 123
+  Min spacing: 94 slots
+  Max spacing: 94 slots
+  Average spacing: 94.0 slots
+  Sample files: 2016-05-12 15.05.59 - Copy.jpg, 2016-05-12 15.06.11 - Copy.jpg
+
+Group 23 (2 photos): slots 30, 127
+  Min spacing: 97 slots
+  Max spacing: 97 slots
+  Average spacing: 97.0 slots
+  Sample files: 2016-07-02 18.48.03 - Copy.jpg, 2016-07-02 18.48.48 - Copy.jpg
+
+Group 24 (2 photos): slots 34, 129
+  Min spacing: 95 slots
+  Max spacing: 95 slots
+  Average spacing: 95.0 slots
+  Sample files: 2016-10-14 19.13.25 - Copy.jpg, 2016-10-14 19.14.27 - Copy.jpg
+
+Group 25 (2 photos): slots 35, 131
+  Min spacing: 96 slots
+  Max spacing: 96 slots
+  Average spacing: 96.0 slots
+  Sample files: 2016-11-24 16.19.06-1.jpg, 2016-11-24 16.19.41-1 - Copy.jpg
+
+Group 26 (2 photos): slots 39, 132
+  Min spacing: 93 slots
+  Max spacing: 93 slots
+  Average spacing: 93.0 slots
+  Sample files: 2017-03-09 12.16.04.jpg, 2017-03-09 12.16.13.jpg
+
+Group 27 (2 photos): slots 40, 134
+  Min spacing: 94 slots
+  Max spacing: 94 slots
+  Average spacing: 94.0 slots
+  Sample files: 2017-04-16 14.04.56.jpg, 2017-04-16 14.23.15.jpg
+
+Group 28 (2 photos): slots 42, 137
+  Min spacing: 95 slots
+  Max spacing: 95 slots
+  Average spacing: 95.0 slots
+  Sample files: 2017-05-10 19.33.52.jpg, 2017-05-10 19.34.32.jpg
+
+Group 29 (2 photos): slots 43, 138
+  Min spacing: 95 slots
+  Max spacing: 95 slots
+  Average spacing: 95.0 slots
+  Sample files: 2017-05-13 12.54.46.jpg, 2017-05-13 12.54.53.jpg
+
+Group 30 (2 photos): slots 44, 139
+  Min spacing: 95 slots
+  Max spacing: 95 slots
+  Average spacing: 95.0 slots
+  Sample files: 2017-06-08 23.46.39.jpg, 2017-06-08 23.46.56.jpg
+
+Group 31 (2 photos): slots 50, 142
+  Min spacing: 92 slots
+  Max spacing: 92 slots
+  Average spacing: 92.0 slots
+  Sample files: IMG_20260518_124122.heic, IMG_20260518_124138.heic
+
+=== Any spacing violations (< 10 slots) ===
+Group 1: photos at slots 0 and 5 are only 5 apart (IMG_5387.jpeg ↔ IMG_6125.jpeg)
+Group 1: photos at slots 5 and 10 are only 5 apart (IMG_6125.jpeg ↔ IMG_5929.jpeg)
+Group 1: photos at slots 10 and 16 are only 6 apart (IMG_5929.jpeg ↔ IMG_5422.jpeg)
+Group 1: photos at slots 16 and 21 are only 5 apart (IMG_5422.jpeg ↔ IMG_5909.jpeg)
+Group 1: photos at slots 21 and 26 are only 5 apart (IMG_5909.jpeg ↔ IMG_5811.jpeg)
+Group 1: photos at slots 26 and 31 are only 5 apart (IMG_5811.jpeg ↔ IMG_5912.jpeg)
+Group 1: photos at slots 31 and 36 are only 5 apart (IMG_5912.jpeg ↔ IMG_5521.jpeg)
+Group 1: photos at slots 36 and 41 are only 5 apart (IMG_5521.jpeg ↔ IMG_5986.jpeg)
+Group 1: photos at slots 41 and 47 are only 6 apart (IMG_5986.jpeg ↔ IMG_6173.jpeg)
+Group 1: photos at slots 47 and 52 are only 5 apart (IMG_6173.jpeg ↔ IMG_5794.jpeg)
+Group 1: photos at slots 52 and 57 are only 5 apart (IMG_5794.jpeg ↔ IMG_6121.jpeg)
+Group 1: photos at slots 57 and 62 are only 5 apart (IMG_6121.jpeg ↔ IMG_5669.jpeg)
+Group 1: photos at slots 62 and 67 are only 5 apart (IMG_5669.jpeg ↔ IMG_6123.jpeg)
+Group 1: photos at slots 67 and 73 are only 6 apart (IMG_6123.jpeg ↔ IMG_5828.jpeg)
+Group 1: photos at slots 73 and 78 are only 5 apart (IMG_5828.jpeg ↔ IMG_5577.jpeg)
+Group 1: photos at slots 78 and 83 are only 5 apart (IMG_5577.jpeg ↔ IMG_5924.jpeg)
+Group 1: photos at slots 83 and 88 are only 5 apart (IMG_5924.jpeg ↔ IMG_5599.jpeg)
+Group 1: photos at slots 88 and 93 are only 5 apart (IMG_5599.jpeg ↔ IMG_5573.jpeg)
+Group 1: photos at slots 93 and 98 are only 5 apart (IMG_5573.jpeg ↔ IMG_5972.jpeg)
+Group 1: photos at slots 98 and 104 are only 6 apart (IMG_5972.jpeg ↔ IMG_5461.jpeg)
+Group 1: photos at slots 104 and 109 are only 5 apart (IMG_5461.jpeg ↔ IMG_5466.jpeg)
+Group 1: photos at slots 109 and 114 are only 5 apart (IMG_5466.jpeg ↔ IMG_5622.jpeg)
+Group 1: photos at slots 114 and 119 are only 5 apart (IMG_5622.jpeg ↔ IMG_6098.jpeg)
+Group 1: photos at slots 119 and 124 are only 5 apart (IMG_6098.jpeg ↔ IMG_5580.jpeg)
+Group 1: photos at slots 124 and 130 are only 6 apart (IMG_5580.jpeg ↔ IMG_5703.jpeg)
+Group 1: photos at slots 130 and 135 are only 5 apart (IMG_5703.jpeg ↔ IMG_6109.jpeg)
+Group 1: photos at slots 135 and 140 are only 5 apart (IMG_6109.jpeg ↔ IMG_5729.jpeg)
+Group 1: photos at slots 140 and 145 are only 5 apart (IMG_5729.jpeg ↔ IMG_5771.jpeg)
+Group 1: photos at slots 145 and 150 are only 5 apart (IMG_5771.jpeg ↔ IMG_6062.jpeg)
+Group 1: photos at slots 150 and 156 are only 6 apart (IMG_6062.jpeg ↔ IMG_5454.jpeg)
+Group 1: photos at slots 156 and 161 are only 5 apart (IMG_5454.jpeg ↔ IMG_5495.jpeg)
+Group 1: photos at slots 161 and 166 are only 5 apart (IMG_5495.jpeg ↔ IMG_5755.jpeg)
+Group 1: photos at slots 166 and 171 are only 5 apart (IMG_5755.jpeg ↔ IMG_5847.jpeg)
+Group 1: photos at slots 171 and 176 are only 5 apart (IMG_5847.jpeg ↔ IMG_5647.jpeg)
+Group 1: photos at slots 176 and 181 are only 5 apart (IMG_5647.jpeg ↔ IMG_6148.jpeg)
+Group 1: photos at slots 181 and 187 are only 6 apart (IMG_6148.jpeg ↔ IMG_6197.jpeg)
+Group 1: photos at slots 187 and 192 are only 5 apart (IMG_6197.jpeg ↔ IMG_5517.jpeg)

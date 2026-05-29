@@ -1,0 +1,110 @@
+<UserControl x:Class="EasyPhotoShow.App.Views.MainScreenView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="clr-namespace:EasyPhotoShow.App.ViewModels"
+             d:DataContext="{d:DesignInstance Type=vm:MainScreenViewModel}"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006">
+    <ScrollViewer Background="{StaticResource BackgroundBrush}" VerticalScrollBarVisibility="Auto">
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Center" MaxWidth="760" Margin="48,56">
+            <StackPanel>
+                <Image Source="pack://application:,,,/Assets/easyphotoshow_256.png"
+                       Width="112" Height="112"
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,16"
+                       RenderOptions.BitmapScalingMode="HighQuality" />
+
+                <TextBlock Style="{StaticResource Display}"
+                           HorizontalAlignment="Center"
+                           Text="EasyPhotoShow" />
+
+                <TextBlock Style="{StaticResource Lead}"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,40"
+                           TextAlignment="Center"
+                           Text="Turn your photos into a polished slideshow." />
+
+                <Border Style="{StaticResource Card}" Margin="0,0,0,24">
+                    <StackPanel>
+                        <Grid Margin="0,0,0,16">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Style="{StaticResource H2}" Text="Your folders" VerticalAlignment="Center" />
+                            <Button Grid.Column="1" Style="{StaticResource SecondaryButton}"
+                                    Content="Add folder"
+                                    Command="{Binding AddFolderCommand}" />
+                        </Grid>
+
+                        <ItemsControl ItemsSource="{Binding Folders}">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Border BorderBrush="{StaticResource BorderSoftBrush}"
+                                            BorderThickness="0,0,0,1"
+                                            Padding="0,14">
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="Auto" />
+                                            </Grid.ColumnDefinitions>
+                                            <TextBlock Style="{StaticResource Body}"
+                                                       TextTrimming="CharacterEllipsis"
+                                                       VerticalAlignment="Center"
+                                                       Text="{Binding}" />
+                                            <Button Grid.Column="1"
+                                                    Style="{StaticResource QuietButton}"
+                                                    Content="Remove"
+                                                    Command="{Binding DataContext.RemoveFolderCommand, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                                    CommandParameter="{Binding}" />
+                                        </Grid>
+                                    </Border>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+
+                        <TextBlock Style="{StaticResource Subtle}"
+                                   Margin="0,16,0,0"
+                                   Visibility="{Binding HasFolders, Converter={StaticResource InverseBoolToVisibility}, FallbackValue=Visible}"
+                                   Text="Add one or more folders of photos to get started." />
+                    </StackPanel>
+                </Border>
+
+                <Grid Margin="0,12,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="20" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Button Grid.Column="0"
+                            Style="{StaticResource PrimaryButton}"
+                            Command="{Binding ReviewDuplicatesCommand}"
+                            MinHeight="68">
+                        <StackPanel>
+                            <TextBlock Text="Review Similar Photos First" FontWeight="SemiBold" FontSize="16" />
+                            <TextBlock Text="Recommended" Opacity="0.85" FontSize="12" Margin="0,2,0,0" />
+                        </StackPanel>
+                    </Button>
+
+                    <Button Grid.Column="2"
+                            Style="{StaticResource SecondaryButton}"
+                            Command="{Binding UseAllPhotosCommand}"
+                            MinHeight="68">
+                        <StackPanel>
+                            <TextBlock Text="Use All Photos" FontWeight="SemiBold" FontSize="16" />
+                            <TextBlock Text="Skip photo review" Opacity="0.7" FontSize="12" Margin="0,2,0,0" />
+                        </StackPanel>
+                    </Button>
+                </Grid>
+
+                <TextBlock Style="{StaticResource Caption}"
+                           Margin="0,40,0,0"
+                           HorizontalAlignment="Center"
+                           TextAlignment="Center"
+                           Text="Trial mode — up to 50 photos and 5 minutes per slideshow." />
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
+</UserControl>
