@@ -23,6 +23,9 @@ Errors/
 # Installer build output (generated artifacts)
 installer/Output/
 
+# Release publish output (generated; distributed via installer, not source control)
+publish/
+
 # OS
 Thumbs.db
 Desktop.ini
