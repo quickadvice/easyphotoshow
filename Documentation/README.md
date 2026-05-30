@@ -67,7 +67,6 @@ Add all 7 files (this README + the 6 numbered docs). They cross-reference each o
 
 - **Local path:** `E:\Dev\EasyPhotoShow\` on the original developer machine.
 - **Git:** Not yet initialized. Recommended pre-V1.0: `git init`, `.gitignore` for `bin/`, `obj/`, `*.user`, `tools/ffmpeg/*.exe`, `Assets/Music/*.mp3`, `Errors/`, then push to a private remote.
-- **Owner:** hello@easyphotoshow.com (coordinate before any commercial distribution).
 
 ---
 
