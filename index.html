@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EasyPhotoShow — Turn Your Photos Into a Slideshow</title>
+    <meta name="description" content="EasyPhotoShow turns your photo folders into a polished MP4 slideshow video. Simple, fast, local Windows app. Free to try.">
+    <meta property="og:title" content="EasyPhotoShow — Turn Your Photos Into a Slideshow">
+    <meta property="og:description" content="Simple Windows slideshow app for families, memorials, weddings, and events. Free to try.">
+    <meta property="og:url" content="https://easyphotoshow.com">
+    <meta property="og:type" content="website">
+    <link rel="canonical" href="https://easyphotoshow.com">
+    <link rel="icon" type="image/png" href="Icons/easyphotoshow_icon_master_transparent.png">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; }
+        html, body { margin: 0; padding: 0; }
+        body {
+            font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #F5F2EE;
+            color: #1A1714;
+            line-height: 1.55;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
+        }
+        img { max-width: 100%; display: block; height: auto; }
+        a { color: inherit; }
+
+        h1, h2 { font-family: 'Lora', Georgia, serif; color: #1A1714; margin: 0; font-weight: 600; letter-spacing: -0.01em; }
+
+        /* ----- Download button (used twice) ----- */
+        .btn {
+            display: inline-block;
+            background: #8B6F3F;
+            color: #FFFFFF;
+            padding: 18px 40px;
+            font-size: 18px;
+            font-weight: 600;
+            font-family: 'Source Sans 3', sans-serif;
+            border: none;
+            border-radius: 10px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            line-height: 1;
+        }
+        .btn:hover { background: #7A6035; transform: translateY(-1px); }
+        .btn:active { transform: translateY(0); }
+        .btn-arrow { margin-right: 10px; font-weight: 400; }
+
+        .quiet {
+            font-size: 14px;
+            color: #6B6560;
+            margin: 16px 0 0;
+        }
+
+        /* ----- Hero ----- */
+        .hero {
+            text-align: center;
+            padding: 88px 24px 72px;
+            background: #F5F2EE;
+        }
+        .hero-icon {
+            width: 96px;
+            height: 96px;
+            border-radius: 16px;
+            margin: 0 auto 28px;
+            display: block;
+        }
+        .hero h1 {
+            font-size: 48px;
+            line-height: 1.15;
+            max-width: 760px;
+            margin: 0 auto 22px;
+        }
+        .hero .sub {
+            font-size: 20px;
+            color: #6B6560;
+            max-width: 540px;
+            margin: 0 auto 36px;
+            line-height: 1.5;
+        }
+
+        /* ----- How It Works (3 steps) ----- */
+        .steps {
+            padding: 72px 24px;
+            background: #FFFFFF;
+            border-top: 1px solid #E8E2D9;
+            border-bottom: 1px solid #E8E2D9;
+        }
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 48px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .step-num {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 34px;
+            height: 34px;
+            background: rgba(139, 111, 63, 0.12);
+            color: #8B6F3F;
+            border-radius: 50%;
+            font-weight: 700;
+            font-size: 15px;
+            margin-bottom: 18px;
+        }
+        .step h3 {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 19px;
+            font-weight: 700;
+            margin: 0 0 10px;
+            color: #1A1714;
+        }
+        .step p { color: #6B6560; margin: 0; font-size: 16.5px; line-height: 1.6; }
+
+        /* ----- Screenshots ----- */
+        .shots {
+            padding: 88px 24px 80px;
+            text-align: center;
+        }
+        .shots h2 { font-size: 32px; margin: 0 0 12px; }
+        .shots .sub {
+            font-size: 18px;
+            color: #6B6560;
+            max-width: 620px;
+            margin: 0 auto 56px;
+            line-height: 1.5;
+        }
+        .shots-row {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 28px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .shot { margin: 0; }
+        .shot img {
+            width: 100%;
+            border-radius: 12px;
+            border: 1px solid #E8E2D9;
+            box-shadow: 0 4px 24px rgba(139, 111, 63, 0.08);
+            background: #FFFFFF;
+        }
+        .shot figcaption {
+            margin-top: 18px;
+            font-size: 15px;
+            color: #6B6560;
+        }
+
+        /* ----- Feature callouts ----- */
+        .features {
+            padding: 72px 24px;
+            background: #FFFFFF;
+            border-top: 1px solid #E8E2D9;
+            border-bottom: 1px solid #E8E2D9;
+        }
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 48px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .feature h3 {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 19px;
+            font-weight: 700;
+            margin: 0 0 12px;
+            color: #1A1714;
+        }
+        .feature p { color: #6B6560; margin: 0; font-size: 17px; line-height: 1.65; }
+
+        /* ----- Second CTA ----- */
+        .cta {
+            padding: 88px 24px;
+            text-align: center;
+            background: #F5F2EE;
+        }
+        .cta h2 { font-size: 28px; margin: 0 0 32px; }
+
+        /* ----- Footer ----- */
+        footer {
+            padding: 44px 24px 56px;
+            text-align: center;
+            border-top: 1px solid #E8E2D9;
+            color: #6B6560;
+            font-size: 14px;
+            line-height: 1.8;
+            background: #F5F2EE;
+        }
+        footer .name { color: #1A1714; font-weight: 700; font-size: 15px; }
+        footer .tagline { margin-top: 4px; }
+
+        /* ----- Responsive ----- */
+        @media (max-width: 900px) {
+            .shots-row { grid-template-columns: 1fr; gap: 40px; max-width: 600px; }
+        }
+        @media (max-width: 768px) {
+            .steps-grid { grid-template-columns: 1fr; gap: 36px; }
+            .features-grid { grid-template-columns: 1fr; gap: 32px; }
+        }
+        @media (max-width: 480px) {
+            .hero { padding: 64px 20px 56px; }
+            .hero h1 { font-size: 32px; }
+            .hero .sub { font-size: 17px; }
+            .hero-icon { width: 88px; height: 88px; }
+            .steps, .features { padding: 56px 20px; }
+            .shots, .cta { padding: 64px 20px; }
+            .shots h2 { font-size: 28px; }
+            .cta h2 { font-size: 24px; }
+            .btn { display: block; width: 100%; padding: 18px 24px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+        <img src="Icons/easyphotoshow_icon_master_transparent.png" alt="EasyPhotoShow icon" class="hero-icon">
+        <h1>Turn your photos into a slideshow — in minutes.</h1>
+        <p class="sub">EasyPhotoShow handles the hard parts — sorting duplicates, sizing photos, adding music — so you can focus on the memories.</p>
+        <a href="https://github.com/quickadvice/easyphotoshow/releases/download/v1.0.0/EasyPhotoShowSetup.exe" class="btn"><span class="btn-arrow">↓</span>Download Free for Windows</a>
+        <p class="quiet">Free to try &middot; Windows 10 and 11 &middot; No account needed</p>
+    </section>
+
+    <!-- ============ HOW IT WORKS ============ -->
+    <section class="steps">
+        <div class="steps-grid">
+            <div class="step">
+                <div class="step-num">1</div>
+                <h3>Add your photos</h3>
+                <p>Point EasyPhotoShow at any folder. It reads JPG, PNG, HEIC, and more &mdash; even from an external drive.</p>
+            </div>
+            <div class="step">
+                <div class="step-num">2</div>
+                <h3>Review and clean up</h3>
+                <p>The app finds near-duplicate and burst shots automatically and recommends which one to keep. One click to accept, or review each pair yourself.</p>
+            </div>
+            <div class="step">
+                <div class="step-num">3</div>
+                <h3>Get your video</h3>
+                <p>Choose a music track, pick a transition style, and hit Create. Your slideshow saves as a standard MP4 video you can play anywhere.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ SCREENSHOTS ============ -->
+    <section class="shots">
+        <h2>Simple by design.</h2>
+        <p class="sub">Every screen has one job. No menus to dig through. No settings to figure out.</p>
+        <div class="shots-row">
+            <figure class="shot">
+                <img src="Documentation/Screenshots/EasyPhotoShow_Main.png" alt="The EasyPhotoShow main screen showing the photo folder picker">
+                <figcaption>Add your photos and go</figcaption>
+            </figure>
+            <figure class="shot">
+                <img src="Documentation/Screenshots/EasyPhotoShow_Dedupe_1.png" alt="The duplicate review screen showing pairs of similar photos">
+                <figcaption>Review similar photos, keep the best</figcaption>
+            </figure>
+            <figure class="shot">
+                <img src="Documentation/Screenshots/EasyPhotoShow_Video.png" alt="The slideshow setup screen with music, transitions, and save options">
+                <figcaption>Set your style and create</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- ============ FEATURES ============ -->
+    <section class="features">
+        <div class="features-grid">
+            <div class="feature">
+                <h3>Works with large collections</h3>
+                <p>Tested on folders with thousands of photos. Handles JPG, PNG, HEIC, and mixed collections without slowing down.</p>
+            </div>
+            <div class="feature">
+                <h3>Your photos stay on your computer</h3>
+                <p>Nothing is uploaded. Nothing is sent anywhere. EasyPhotoShow runs entirely on your machine.</p>
+            </div>
+            <div class="feature">
+                <h3>Nothing is ever deleted</h3>
+                <p>Photos you choose not to include move to a PotentialDuplicates folder. Your originals are always safe.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ SECOND CTA ============ -->
+    <section class="cta">
+        <h2>Ready to make a slideshow?</h2>
+        <a href="https://github.com/quickadvice/easyphotoshow/releases/download/v1.0.0/EasyPhotoShowSetup.exe" class="btn"><span class="btn-arrow">↓</span>Download Free for Windows</a>
+        <p class="quiet">Free to try &middot; Windows 10 and 11 &middot; No account needed</p>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer>
+        <div class="name">EasyPhotoShow</div>
+        <div>&copy; 2026 EasyPhotoShow &middot; easyphotoshow.com</div>
+        <div class="tagline">Made for families, memorials, weddings, and every occasion worth remembering.</div>
+    </footer>
+
+</body>
+</html>
