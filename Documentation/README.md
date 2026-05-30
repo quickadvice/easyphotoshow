@@ -66,7 +66,7 @@ Add all 7 files (this README + the 6 numbered docs). They cross-reference each o
 ## Where the project lives
 
 - **Local path:** `E:\Dev\EasyPhotoShow\` on the original developer machine.
-- **Git:** Not yet initialized. Recommended pre-V1.0: `git init`, `.gitignore` for `bin/`, `obj/`, `*.user`, `tools/ffmpeg/*.exe`, `Assets/Music/*.mp3`, `Errors/`, then push to a private remote.
+- **Git:** Initialized 2026-05-29. The repo is **public** at `github.com/quickadvice/easyphotoshow` — single `main` branch. Initial commit `94d3d83`.
 
 ---
 
@@ -81,5 +81,5 @@ From `06_Code_Handoff.md` §10:
 - [ ] Inno Setup installer script
 - [ ] Calibrate `DHash.SimilarityThresholdBits` (currently 8) against representative photo sets
 - [ ] Calibrate `FilterGraphBuilder.BlurSigma` (currently 8 at 480×270) visually
-- [ ] Initialize git repository and push to private remote
+- [x] Initialize git repository (done 2026-05-29; public repo at `github.com/quickadvice/easyphotoshow`)
 - [ ] Decide on thumbnail on-disk cache (perf for large duplicate-review sets)
